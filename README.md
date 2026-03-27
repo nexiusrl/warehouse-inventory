@@ -217,13 +217,13 @@ warehouse-inventory/
 
 ## Security Features
 
-✅ **Password Hashing** - bcrypt with salt rounds
-✅ **SQL Injection Prevention** - Parameterized queries with mysql2
-✅ **CSRF Protection** - NextAuth.js built-in
-✅ **Session Management** - JWT with secure cookies
-✅ **User Isolation** - All queries scoped to user ID
-✅ **Input Validation** - Zod schemas on all inputs
-✅ **Transaction Support** - Stock adjustments use database transactions
+1. **Password Hashing** - bcrypt with salt rounds
+2. **SQL Injection Prevention** - Parameterized queries with mysql2
+3. **CSRF Protection** - NextAuth.js built-in
+4. **Session Management** - JWT with secure cookies
+5. **User Isolation** - All queries scoped to user ID
+6. **Input Validation** - Zod schemas on all inputs
+7. **Transaction Support** - Stock adjustments use database transactions
 
 ## Database Management
 
@@ -264,7 +264,6 @@ mysqldump -u root warehouse_inventory > backup.sql
 
 ## Documentation
 
-- [Prisma-free Setup](#) - Simple MySQL integration
 - [mysql2 Docs](https://github.com/sidorares/node-mysql2)
 - [NextAuth.js Docs](https://next-auth.js.org)
 - [Next.js Docs](https://nextjs.org/docs)
@@ -294,12 +293,6 @@ NEXTAUTH_SECRET=<strong-random-secret>
 NEXTAUTH_URL=https://your-domain.com
 NODE_ENV=production
 ```
-
-### Recommended MySQL Hosting
-
-- **PlanetScale** - Serverless MySQL
-- **AWS RDS** - Managed MySQL
-- **DigitalOcean** - Managed Database
 
 ### Build and Deploy
 
