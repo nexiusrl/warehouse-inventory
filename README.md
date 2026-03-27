@@ -269,6 +269,15 @@ mysqldump -u root warehouse_inventory > backup.sql
 - [NextAuth.js Docs](https://next-auth.js.org)
 - [Next.js Docs](https://nextjs.org/docs)
 
+## AI Credits
+
+This project was developed with the assistance of AI tools:
+
+- **[Qwen Code](https://github.com/QwenLM/qwen-code)** - Primary development assistant for code generation, project scaffolding, and implementation
+- **Gemini** - Product Requirements Document (PRD) creation and planning
+
+The PRD (`PRD.md`) was created using Gemini to define project scope, features, and requirements.
+
 ## Production Deployment
 
 ### Environment Variables
